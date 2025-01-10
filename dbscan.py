@@ -38,7 +38,7 @@ for k, col in zip(unique_labels, colors):
 plt.title('DBSCAN clustering results (eps=2.5, min_samples=3)')
 plt.xlabel('x')
 plt.ylabel('y')
-plt.show()
+
 
 
 # Print core points
@@ -58,7 +58,7 @@ for i in range(len(labels)):
     if labels[i] == -1:
         print(data[i])
 
-
+plt.show()
 # Save the plot as a PNG image
 plt.savefig('dbscan_clustering.png')
 

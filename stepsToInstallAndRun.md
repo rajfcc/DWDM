@@ -1,10 +1,11 @@
 # Creating Venv
 ---
-> py -m venv venv
+`py -m venv venv`
+
 
 # Activate Venv
 ---
-> venv/Scripts/activate
+`venv/Scripts/activate`
 
 # Install required packages
-> pip install -r requirements.txt
+`pip install -r requirements.txt`
